@@ -20,4 +20,18 @@
         android:backgroundTint="@android:color/darker_gray"
         android:textColor="@color/black"
         android:onClick="launchSecondActivity"/>
+
+    <EditText
+        android:id="@+id/editText_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        android:text=""
+        android:hint="@string/editText_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_main" />
 </androidx.constraintlayout.widget.ConstraintLayout>
